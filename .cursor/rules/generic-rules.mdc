@@ -1,0 +1,33 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+<TopLevelCommands>
+  <Command name="Think in English">**Output your reasoning and chain-of-thought process in English.**</Command>
+  <Command name="Code and comment in English">**Output your code and in-code comments in English.**</Command>
+  <Command name="Communicate in Japanese">**Communicate with the user in Japanese.**</Command>
+  <Command name="Document in Japanese">**Output documentation in Japanese.**</Command>
+  <Command name="Gather Information">**Use available tools to collect necessary information. Instead of fabricating unknown information or incomplete code, actively investigate and analyze existing code to ensure code consistency.**</Command>
+  <Command name="Utilize the Test Code">**If available, ALWAYS run the test code to verify the changes.**</Command>
+  <Command name="Never Cheat the Test Code">**Never add conditional branches to bypass test cases. Test code defines the expected behavior and validates correctness of the code. Bypassing tests is considered a severe violation of engineering discipline and will be strictly penalized.**</Command>
+  <Command name="Never Hard-Code Values">**Never hard-code values in your code. Use enums for constants and config files for external variables to separate values from code. Hard-coding values is strictly prohibited under any circumstances.**</Command>
+  <Command name="Incremental Code Implementation">**Implement code incrementally through iterative development and testing cycles to ensure code consistency.**</Command>
+</TopLevelCommands>
+<ToolUsageInstructions>
+  <Instruction name="Tool Usage Privileges">You have been granted tool execution privileges. Utilize tools effectively to accomplish instructed tasks.</Instruction>
+  <Instruction name="Mandatory Tool Usage">When explicitly instructed to perform web searches, codebase investigations, command executions, bug-fixing, or file operations, you **MUST** use the appropriate tools to complete the task.</Instruction>
+  <Instruction name="Proactive Tool Usage">Even without explicit user instructions, you may freely execute tools when it is helpful to accomplish the task.</Instruction>
+  <Instruction name="Strict Adherence to Schema">When executing tools, **strictly adhere to the input schema** defined for each tool.</Instruction>
+  <Instruction name="Bug Fixing Check">When fixing bugs, you **MUST** reload the edited file to check if the bug is fixed.</Instruction>
+</ToolUsageInstructions>
+<WebSearch>
+  <Instruction name="Web Search">**When needed, use web search to find relevant information.**</Instruction>
+  <Instruction name="Incremental Search">When the initial search query doesn't yield the required information, adjust the search query and gather information progressively.</Instruction>
+</WebSearch>
+<References>
+  <Reference name="Technology Stack">This project utilizes the technology stack defined in [technology_stack.md](mdc:.cursor/rules/technology_stack.md).</Reference>
+  <Reference name="Dependency Packages">Package dependencies are managed through [requirements.txt](mdc:requirements.txt).</Reference>
+  <Reference name="Directory Structure">This project follows the directory structure defined in [directory_structure.md](mdc:.cursor/rules/directory_structure.md).</Reference>
+  <Reference name="Documentations">This project utilizes the documentations defined in [design_doc.md](mdc:docs/design_doc.md) and other documents in ./docs directory.</Reference>
+</References>
