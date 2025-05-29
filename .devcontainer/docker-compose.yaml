@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - ..:/app
+    command: sleep infinity
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

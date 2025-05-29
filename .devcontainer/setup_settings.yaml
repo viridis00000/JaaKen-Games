@@ -1,0 +1,12 @@
+apt_packages:
+  - direnv
+  - git
+  - jq
+  - gh
+  - zsh
+  - xclip
+  - tree
+  - curl
+  - gpg
+  - vim
+  - nano

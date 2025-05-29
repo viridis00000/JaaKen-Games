@@ -1,0 +1,31 @@
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+.cursor
+
+# Temporary files
+temp/
+*.tmp
+*.log
+
+# Environment files
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Documentation build artifacts
+docs/_build/
+docs/.doctrees/ 
