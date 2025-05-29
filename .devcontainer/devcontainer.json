@@ -1,5 +1,5 @@
 {
-  "name": "Plain Development Environment",
+  "name": "Default Development Environment",
   "dockerComposeFile": "docker-compose.yaml",
   "service": "app",
   "workspaceFolder": "/app",
